@@ -1,0 +1,117 @@
+@font-face {
+    font-family: sora;
+    src: url(assets/fonts/static/Sora-Bold.ttf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: sora;
+    src: url(assets/fonts/static/Sora-Light.ttf);
+    font-weight: 100;
+}
+
+*{
+    font-family: "sora";
+    box-sizing: border-box;
+    color: #000;
+}
+body{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.app__header{
+    font-size: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+}
+
+  
+.app__links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.app__links li{
+    margin-right: 2rem;
+} 
+
+.app__links li.active {
+    color: #457B9D;
+    font-weight: bold;
+} 
+
+.app__showcase{
+    display: flex;
+    margin: 5rem 0;
+}
+
+.app__showcase-info{
+    flex: 5;
+}
+
+.app__showcase-info p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 32px;
+    align-items: center;
+    color: #000;
+    margin: 0;
+}
+
+.app__showcase-info h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 89.6px;
+    color: #000;
+}
+
+.app__showcase-info p {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #1C1E53;
+}
+
+.app__showcase_image{
+    flex: 5;
+}
+
+.app__link-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app__link{
+    font-size: 30px;
+    width: 45%;
+    height: 70px;
+    text-decoration: none;
+    background-color: #457B9D;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__link img{
+    margin-right: 2rem;
+}
+.app_about_me{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.app_about_me p{
+    font-size: 28;
+    font-weight: lighter;
+}
+.app_projects-info{
+    font-size: 32;
+}
